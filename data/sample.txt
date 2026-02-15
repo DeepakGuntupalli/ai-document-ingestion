@@ -1,0 +1,4 @@
+Artificial Intelligence is transforming the world.
+Machine learning helps computers learn from data.
+Vector databases are used for semantic search.
+
