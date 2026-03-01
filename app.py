@@ -53,9 +53,7 @@ splitter = RecursiveCharacterTextSplitter(
 chunks = splitter.split_documents(documents)
 print(f"Created {len(chunks)} chunks")
 
-# Clean metadata
-for chunk in chunks:
-    chunk.metadata = {}
+
 
 # Create embeddings
 embedding = HuggingFaceEmbeddings(
